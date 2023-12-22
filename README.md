@@ -1,6 +1,4 @@
-# OpenZeppelin Contracts for Cairo
 
-[![Lint and test](https://github.com/OpenZeppelin/cairo-contracts/actions/workflows/test.yml/badge.svg)](https://github.com/OpenZeppelin/cairo-contracts/actions/workflows/test.yml)
 
 **A library for secure smart contract development** written in Cairo for [Starknet](https://starkware.co/product/starknet/), a decentralized ZK Rollup.
 
@@ -104,24 +102,6 @@ mod MyToken {
 }
 ```
 
-### Unsupported
-
-[`DualCase` dispatchers](https://docs.openzeppelin.com/contracts-cairo/0.8.0/interfaces#dualcase_dispatchers) rely on Sierra's ability to catch a revert to resume execution. Currently, Starknet live chains (testnets and mainnet) don't implement that behavior. Starknet's testing framework does support it.
-
-## Learn
-
-<!-- ### Documentation
-
-Check out the [full documentation site](https://docs.openzeppelin.com/contracts-cairo)! Featuring:
-
-- [Accounts](https://docs.openzeppelin.com/contracts-cairo/0.6.1/accounts)
-- [ERC20](https://docs.openzeppelin.com/contracts-cairo/0.6.1/erc20)
-- [ERC721](https://docs.openzeppelin.com/contracts-cairo/0.6.1/erc721)
-- [ERC1155](https://docs.openzeppelin.com/contracts-cairo/0.6.1/erc1155)
-- [Contract extensibility pattern](https://docs.openzeppelin.com/contracts-cairo/0.6.1/extensibility)
-- [Proxies and upgrades](https://docs.openzeppelin.com/contracts-cairo/0.6.1/proxies)
-- [Security](https://docs.openzeppelin.com/contracts-cairo/0.6.1/security)
-- [Utilities](https://docs.openzeppelin.com/contracts-cairo/0.6.1/utilities) -->
 
 ### Cairo
 
@@ -136,11 +116,6 @@ Check out the [full documentation site](https://docs.openzeppelin.com/contracts-
 
 - [Scarb](https://docs.swmansion.com/scarb)
 
-## Development
-
-> **Note**: You can track our roadmap and future milestones in our [Github Project](https://github.com/orgs/OpenZeppelin/projects/29/).
-
-OpenZeppelin Contracts for Cairo exists thanks to its contributors. There are many ways you can participate and help build high quality software, make sure to check out the [contribution](CONTRIBUTING.md) guide in advance.
 
 ### Set up the project
 
@@ -174,6 +149,4 @@ scarb test
 
 Refer to [SECURITY.md](SECURITY.md) for more details.
 
-## License
 
-OpenZeppelin Contracts for Cairo is released under the [MIT License](LICENSE).
